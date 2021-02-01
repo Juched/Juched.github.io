@@ -1,0 +1,82 @@
+.layout-background-header{
+    background: url('background.png') center / cover;
+    margin: auto;
+}
+
+.layout-background-header .mdl-layout__header,
+.layout-background-header .mdl-layout__drawer-button , .mdl-tabs, .mdl-tabs__tab{
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white !important;
+}
+
+#timedate {
+  font: small-caps lighter 43px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  text-align:left;
+  width: 50%;
+  margin: 40px auto;
+  color:#fff;
+  border-left: 3px solid #ed1f24;
+  padding: 20px;
+  margin-left: 820px;
+}
+
+.margin-auto{
+    margin:auto!important;
+    width:1000!important;
+}
+.padding-auto {
+    padding=auto!important;
+}
+
+.padding-0 {
+    padding: 0!important;
+}
+
+
+.card-square.mdl-card {
+  width: 270px;  
+  height: 90px;
+}
+.card-square-yt > .mdl-card__title {
+    color: white;    
+    background: url('yt.png') center / cover red;    
+    padding-bottom: 2px;
+}
+}
+.margin-lr {
+    
+    display:flex!important;
+    justify-content: center!important;
+    
+}
+.card-square-tw > .mdl-card__title {
+    color: white;    
+    background: url('twitch.jpg') center / cover purple;   
+    padding-bottom: 2px;
+}
+
+.card-square-gm > .mdl-card__title {
+    color: white;    
+    background: url('gmail.jpg') center / cover red;   
+    background-size: 430px 330px;
+    padding-bottom: 2px;
+}
+
+.card-square-cm > .mdl-card__title {
+    color: white;    
+    background: url('carmen.jpg') center / cover red;   
+    background-size: 430px 330px;
+    padding-bottom: 2px;
+}
+.demo-card-event {
+    margin:20px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.mdl-card__title {
+   
+}
